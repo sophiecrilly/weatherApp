@@ -14,28 +14,28 @@
 	function makeApiCallWeatherData () {
 
         function getTemp(response) {
-            document.getElementById('temp').innerHTML = response.data.daily[0].temp.day.toFixed(0) + 'C';
+            document.getElementById('temp').innerHTML = response.data.daily[0].temp.day.toFixed(0) + '°C';
                 console.log(response.data.daily[0].temp.day);
 
-            document.getElementById('dayOneTemp').innerHTML = response.data.daily[1].temp.day.toFixed(0) + 'C';
+            document.getElementById('dayOneTemp').innerHTML = response.data.daily[1].temp.day.toFixed(0) + '°C';
                 console.log(response.data.daily[1].temp.day);
 
-            document.getElementById('dayTwoTemp').innerHTML = response.data.daily[2].temp.day.toFixed(0) + 'C';
+            document.getElementById('dayTwoTemp').innerHTML = response.data.daily[2].temp.day.toFixed(0) + '°C';
                 console.log(response.data.daily[2].temp.day);
 
-            document.getElementById('dayThreeTemp').innerHTML = response.data.daily[3].temp.day.toFixed(0) + 'C';
+            document.getElementById('dayThreeTemp').innerHTML = response.data.daily[3].temp.day.toFixed(0) + '°C';
                 console.log(response.data.daily[3].temp.day);
 
-            document.getElementById('dayFourTemp').innerHTML = response.data.daily[4].temp.day.toFixed(0) + 'C';
+            document.getElementById('dayFourTemp').innerHTML = response.data.daily[4].temp.day.toFixed(0) + '°C';
                 console.log(response.data.daily[4].temp.day);
 
-            document.getElementById('dayFiveTemp').innerHTML = response.data.daily[5].temp.day.toFixed(0) + 'C';
+            document.getElementById('dayFiveTemp').innerHTML = response.data.daily[5].temp.day.toFixed(0) + '°C';
                 console.log(response.data.daily[5].temp.day);
 
-            document.getElementById('daySixTemp').innerHTML = response.data.daily[6].temp.day.toFixed(0) + 'C';
+            document.getElementById('daySixTemp').innerHTML = response.data.daily[6].temp.day.toFixed(0) + '°C';
                 console.log(response.data.daily[6].temp.day);
 
-            document.getElementById('daySevenTemp').innerHTML = response.data.daily[7].temp.day.toFixed(0) + 'C';
+            document.getElementById('daySevenTemp').innerHTML = response.data.daily[7].temp.day.toFixed(0) + '°C';
                 console.log(response.data.daily[7].temp.day);
         }
 
